@@ -4,6 +4,8 @@ import { Routing } from "./routes/routes";
 import { NavBar } from "./components/Navbar"
 
 function App() {
+
+
   return (
     
 <Routing>
