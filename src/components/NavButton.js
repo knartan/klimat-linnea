@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-//import "bootstrap/dist/css/bootstrap.css";
 import './NavButton.css';
 
 
@@ -24,9 +23,9 @@ export function NavButton(props) {
                 onClick={
                     () => {
                         navigate(props.path);
-                        if(props.setAsActive != null){
-                            props.setAsActive(props.path);
-                        }
+                        // if(props.setAsActive != null){
+                        //     props.setAsActive(props.path);
+                        // }
                         
                     }
                 } 

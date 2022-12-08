@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
 import { Routing } from "./routes/routes";
-import { NavBar } from "./components/Navbar"
+import { NavBar } from "./components/Navbar";
 
 function App() {
 
 
   return (
     
-<Routing>
-<NavBar />
-</Routing>
+    <Routing >
+      <NavBar />
+    </Routing>
   );
 }
 
