@@ -1,11 +1,9 @@
-const startViewPath ='/';
-const temperaturViewPath ='/temperatur';
-const quizViewPath ='/quiz';
-
+const startViewPath = "/";
+const temperaturViewPath = "/temperatur";
+const quizViewPath = "/quiz";
 
 export default {
-    startViewPath,
-    temperaturViewPath,
-    quizViewPath,
-
-}
+  startViewPath,
+  temperaturViewPath,
+  quizViewPath,
+};

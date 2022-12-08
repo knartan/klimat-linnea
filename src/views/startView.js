@@ -6,10 +6,10 @@ import cardIcon2 from "../images/Havsnivåer.png";
 import cardIcon3 from "../images/Fabrik.png";
 import cardIcon4 from "../images/Temperatur.png";
 import paths from "../routes/paths";
-import { useNavigate } from "react-router-dom";
+
 
 export const StartView = () => {
-  const navigate = useNavigate();
+
   return (
     <div className="frame">
       <header>

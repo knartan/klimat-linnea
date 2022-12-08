@@ -11,8 +11,8 @@ export const Routing = ({children}) => {
             {children}
             <Routes>
                 <Route path={paths.startViewPath} element={<StartView/>}/>
-                <Route exakt path={paths.temperaturViewPath} element={<TemperaturView/>}/>
-                <Route exakt path={paths.quizViewPath} element={<QuizView/>}/>
+                <Route path={paths.temperaturViewPath} element={<TemperaturView/>}/>
+                <Route path={paths.quizViewPath} element={<QuizView/>}/>
             </Routes>
         </BrowserRouter>
     );

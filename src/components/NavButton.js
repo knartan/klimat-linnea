@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import './NavButton.css';
 
 
-
 export function NavButton(props) {
 
     const navigate = useNavigate();
@@ -11,7 +10,6 @@ export function NavButton(props) {
         background: `${props.footerColor}`,
         height: `${props.selected ? '30%' : '15%'}`
     };
-
 
 
     const weight = props.selected ? 'bold' : 'normal';
@@ -23,10 +21,7 @@ export function NavButton(props) {
                 onClick={
                     () => {
                         navigate(props.path);
-                        // if(props.setAsActive != null){
-                        //     props.setAsActive(props.path);
-                        // }
-                        
+                                              
                     }
                 } 
 
